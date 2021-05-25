@@ -1,0 +1,16 @@
+{
+  "name": "suacedemo_workshop",
+  "version": "1.0.0",
+  "description": "saucedemo application",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/test",
+    "test-all-ie": "testcafe ie ./page_model/test",
+    "test-all-firefox": "testcafe firefox ./page_model/test"
+  },
+  "author": "Carlos Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
